@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Derrick Fosu Adofo</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="lang.js" defer></script>
+</head>
+<body data-page-title="page_title_projects">
+  <header class="navbar">
+    <a href="index.html" class="brand">
+      <span class="brand-dot"></span>
+      <span class="brand-name">Derrick Fosu Adofo</span>
+      <span class="brand-role" data-i18n="brand_role">Data Analyst</span>
+    </a>
+    <div class="nav-right">
+      <nav class="nav-links">
+        <a href="projects.html" class="active" data-i18n="nav_projects">Projects</a>
+        <a href="resume.html" data-i18n="nav_resume">Resume</a>
+        <a href="contact.html" data-i18n="nav_contact">Contact</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Language switcher">
+        <button type="button" class="lang-btn active" data-lang="en">EN</button>
+        <button type="button" class="lang-btn" data-lang="de">DE</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title" data-i18n="projects_title">Projects</h1>
+    <p class="page-subtitle" data-i18n="projects_subtitle">
+      Each project starts with a practical business question. Projects are grouped by category and primary analytical tool.
+    </p>
+
+    <!-- Category Jump Pills -->
+    <div class="filter-pills">
+      <a href="#team-projects" class="pill pill-mustard" data-i18n="pill_team">Team Projects</a>
+      <a href="#powerbi" class="pill pill-coral" data-i18n="pill_powerbi">Power BI</a>
+      <a href="#sql" class="pill pill-teal" data-i18n="pill_sql">SQL</a>
+      <a href="#excel" class="pill pill-coral" data-i18n="pill_excel">Excel</a>
+      <a href="#python" class="pill pill-teal" data-i18n="pill_python">Python</a>
+    </div>
+
+    <hr class="section-divider" />
+
+    <!-- TEAM PROJECTS SECTION -->
+    <section id="team-projects" class="tool-section">
+      <h2 class="tool-heading" data-i18n="sec_team_title">Team Projects</h2>
+      <p class="tool-desc" data-i18n="sec_team_desc">Collaborative end-to-end analytics and business intelligence capstone work.</p>
+
+      <article class="project-card">
+        <div class="project-visual">
+          <img src="assets/supply-chain-tree.png" alt="Power BI Decomposition Tree showing 8,497 late deliveries across shipping regions" />
+        </div>
+        <div class="project-body">
+          <div>
+            <div class="project-meta">
+              <span data-i18n="proj1_tool">Power BI &amp; PostgreSQL</span>
+              <span data-i18n="proj1_date">Oct 2026</span>
+            </div>
+            <h3 class="project-title" data-i18n="proj1_title">Supply Chain Management Report &amp; Data Storytelling</h3>
+            <blockquote class="project-callout" data-i18n="proj1_callout">
+              Pinpointed 8,497 late deliveries across global shipping routes (led by Western Europe with 2,717 and Central America with 2,560) and modeled how aggressive discounting erodes net profit margins.
+            </blockquote>
+            <p class="project-summary" data-i18n="proj1_summary">
+              How do regional bottlenecks and discounting strategies impact supply chain profitability? Using the DataCo Smart Supply Chain dataset, raw operational records were staged in PostgreSQL, normalized into a Star Schema (fact_order_line plus customer, product, shipping, payment, and order dimensions), cleaned in Power Query, and modeled with DAX measures and Time Intelligence calculation groups in Power BI.
+            </p>
+            <div class="skill-tags">
+              <span class="skill-tag">Power BI</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Star Schema</span>
+              <span class="skill-tag">DAX</span>
+              <span class="skill-tag">Power Query</span>
+              <span class="skill-tag">Calculation Groups</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/derrickadofo" target="_blank" rel="noopener" data-i18n="proj1_link_github">GitHub Profile ↗</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- ADDITIONAL INDIVIDUAL TOOL SECTIONS READY FOR YOUR NEXT PROJECTS -->
+    <div id="powerbi"></div>
+    <div id="sql"></div>
+    <div id="excel"></div>
+    <div id="python"></div>
+
+    <div class="upcoming-banner" data-i18n="upcoming_note">
+      More individual projects across SQL, Excel, Power BI, and Python are being added shortly.
+    </div>
+  </main>
+</body>
+</html>
