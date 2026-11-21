@@ -112,7 +112,7 @@ const translations = {
   },
 
   de: {
-    page_title_home: "Derrick Fosu Adofo | Datenanalyst",
+    page_title_home: "Derrick Fosu Adofo | Daten Analyst",
     page_title_projects: "Projekte | Derrick Fosu Adofo",
     page_title_resume: "Lebenslauf | Derrick Fosu Adofo",
     page_title_contact: "Kontakt | Derrick Fosu Adofo",

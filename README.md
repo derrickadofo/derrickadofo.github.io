@@ -1,13 +1,17 @@
 # Derrick Fosu Adofo — Data Analyst Portfolio
 
-Bilingual (`EN | DE`) data and business analytics portfolio featuring case studies in Power BI, SQL, Excel, and Python alongside an interactive resume.
+Bilingual (`EN | DE`) dark-mode data & business analytics portfolio ready for GitHub Pages.
 
-**Live Site:** [derrickadofo.github.io](https://derrickadofo.github.io)
+## Files Included
+- `index.html` — Home & About overview
+- `projects.html` — Projects showcase (currently featuring the Supply Chain Power BI capstone under **Team Projects**)
+- `resume.html` — Interactive bilingual resume + direct PDF download button
+- `contact.html` — Direct contact details and message form
+- `style.css` — Dark charcoal theme with editorial serif headings and mustard/coral/teal accents
+- `lang.js` — Instant English / German (`EN | DE`) toggle persisted across pages
+- `assets/` — Portrait photo (`headshot.jpg`), Power BI visual (`supply-chain-tree.png`), and CV PDF (`Derrick_Fosu_Adofo_CV.pdf`)
 
-## Overview
-
-* **`index.html`** — Background in data analytics, controlling, and logistics
-* **`projects.html`** — End-to-end analytics projects and data storytelling case studies
-* **`resume.html`** — Interactive bilingual CV (`EN | DE`) with direct PDF download
-* **`contact.html`** — Contact details and direct message form
-* **`style.css` & `lang.js`** — Responsive dark-mode design with instant English/German language switching
+## Deploy to GitHub Pages
+1. Create a public GitHub repository named `derrickadofo.github.io` (or any repository name).
+2. Upload all files and the `assets/` folder to the root of the repository.
+3. Open **Settings → Pages**, select **Deploy from a branch** (`main` / `/root`), and click **Save**.
